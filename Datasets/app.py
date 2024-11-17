@@ -12,7 +12,7 @@ medications = pd.read_csv('Datasets/medications.csv')
 diets = pd.read_csv("Datasets/diets.csv")
 
 # Load model
-svc = pickle.load(open('CI Medicine Recommandation System AIML Project/svc.pkl', 'rb'))
+svc = pickle.load(open('Files/svc.pkl', 'rb'))
 
 # Custom helper functions
 def helper(dis):
